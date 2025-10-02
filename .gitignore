@@ -1,0 +1,38 @@
+# Ignore virtual environment
+venv/
+ENV/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Ignore build and dist files
+build/
+dist/
+*.egg-info/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore Streamlit temporary files
+.streamlit/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Do not ignore code files, README, and models
+!*.py
+!*.md
+!*.pkl
